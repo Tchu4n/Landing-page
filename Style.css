@@ -1,7 +1,6 @@
-div { border: 1px solid red; } 
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -133,6 +132,69 @@ header {
 .card p {
   text-align: center;
   font-size: 14px;
-  color: #e5e7eb;
+  color: #1f2937;
   margin: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote p:first-child{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    color: #1f2937;
+}
+
+.quote p:last-child{
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.bottom-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px auto;
+    width: 900px;
+    padding: 48px 96px;
+    border-radius: 8px;
+}
+
+.bottom-banner-txt h1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.bottom-banner-txt h2{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 8px;
+}
+.bottom-banner .signup-button{
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 32px 0;
 }
